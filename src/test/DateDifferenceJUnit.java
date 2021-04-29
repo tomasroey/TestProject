@@ -76,18 +76,6 @@ public class DateDifferenceJUnit {
 		output = junit.differenceCalculation(date1, date2);
 		assertEquals(32477, output);
 		}
-//		output = junit.differenceCalculation("15 02 1992", "01 10 2001");
-//		assertEquals(3516, output);
-//		output = DateDifference.differenceCalculation("02 11 1901", "30 12 2009");
-//		assertEquals(39505, output);
-//		output = DateDifference.differenceCalculation("31 03 1911", "29 02 2000");
-//		assertEquals(32477, output);
-//		output = DateDifference.differenceCalculation("06 10 1991", "24 10 1991");
-//		assertEquals(18, output);
-//		output = DateDifference.differenceCalculation("16 01 2003", "01 12 2003");
-//		assertEquals(319, output);
-//		output = DateDifference.differenceCalculation("16 11 2003", "01 12 2003");
-//		assertEquals(15, output);
 	}
 
 }
