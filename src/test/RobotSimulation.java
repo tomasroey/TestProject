@@ -14,27 +14,7 @@ public class RobotSimulation {
 	private static int xCoordinate = 0;
 	private static int yCoordinate = 0;
 	private static String direction = "NORTH";
-//	public static boolean executePlaceCommand(String command){
-//		if(command.matches("(PLACE [0-4],[0-4],(NORTH|SOUTH|WEST|EAST))")){
-//		StringTokenizer tok = new StringTokenizer(command, " ");
-//		tok.nextToken();
-//		StringTokenizer tok2 = new StringTokenizer(tok.nextToken(),",");
-//		xCoordinate = Integer.parseInt(tok2.nextToken());
-//		yCoordinate = Integer.parseInt(tok2.nextToken());
-//		direction = tok2.nextToken();
-//		List<String> dirList = new ArrayList<>(Arrays.asList(dir));
-//		if(!(dirList.contains(direction))){
-//			System.out.println("Invalid direction!\n");
-//			System.exit(0);
-//			return false;
-//		}
-//		return true;
-//		}else{
-//			System.out.println("Invalid command!\n");
-//			System.exit(0);
-//			return false;
-//		}
-//	}
+
 	public static String executeCommand(String command){
 		switch (command) {
 		case "MOVE":
